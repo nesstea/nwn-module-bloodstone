@@ -29,10 +29,10 @@ Name:
   value:
     0: _DEBUG
 NoRest: {type: byte, value: 0}
-OnEnter: {type: resref, value: ''}
-OnExit: {type: resref, value: ''}
-OnHeartbeat: {type: resref, value: ''}
-OnUserDefined: {type: resref, value: ''}
+OnEnter: {type: resref, value: area_enter}
+OnExit: {type: resref, value: area_exit}
+OnHeartbeat: {type: resref, value: area_heartbeat}
+OnUserDefined: {type: resref, value: area_userdefined}
 PlayerVsPlayer: {type: byte, value: 3}
 ResRef: {type: resref, value: _debug}
 ShadowOpacity: {type: byte, value: 50}
@@ -95,6 +95,6 @@ Tile_List:
     Tile_SrcLight1: {type: byte, value: 0}
     Tile_SrcLight2: {type: byte, value: 0}
 Tileset: {type: resref, value: ttd01}
-Version: {type: dword, value: 3}
+Version: {type: dword, value: 4}
 Width: {type: int, value: 2}
 WindPower: {type: int, value: 0}

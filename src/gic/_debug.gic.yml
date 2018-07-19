@@ -15,9 +15,7 @@ List:
   value: []
 Placeable List:
   type: list
-  value:
-  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 9, Comment: {type: cexostr, value: Floor
-        Lever - 1}}
+  value: []
 SoundList:
   type: list
   value: []

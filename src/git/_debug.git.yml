@@ -28,71 +28,7 @@ List:
   value: []
 Placeable List:
   type: list
-  value:
-  - !nwn-lib.elv.es,2013-07:struct
-    __struct_id: 9
-    AnimationState: {type: byte, value: 0}
-    Appearance: {type: dword, value: 22}
-    AutoRemoveKey: {type: byte, value: 0}
-    Bearing: {type: float, value: -0.0}
-    BodyBag: {type: byte, value: 0}
-    CloseLockDC: {type: byte, value: 0}
-    Conversation: {type: resref, value: ''}
-    CurrentHP: {type: short, value: 15}
-    Description:
-      type: cexolocstr
-      str_ref: 14632
-      value: {}
-    DisarmDC: {type: byte, value: 15}
-    Faction: {type: dword, value: 1}
-    Fort: {type: byte, value: 16}
-    HP: {type: short, value: 15}
-    Hardness: {type: byte, value: 5}
-    HasInventory: {type: byte, value: 0}
-    Interruptable: {type: byte, value: 1}
-    KeyName: {type: cexostr, value: ''}
-    KeyRequired: {type: byte, value: 0}
-    LocName:
-      type: cexolocstr
-      str_ref: 14633
-      value:
-        0: SHIT NIGGA
-    Lockable: {type: byte, value: 0}
-    Locked: {type: byte, value: 0}
-    OnClick: {type: resref, value: ''}
-    OnClosed: {type: resref, value: ''}
-    OnDamaged: {type: resref, value: ''}
-    OnDeath: {type: resref, value: ''}
-    OnDisarm: {type: resref, value: ''}
-    OnHeartbeat: {type: resref, value: ''}
-    OnInvDisturbed: {type: resref, value: ''}
-    OnLock: {type: resref, value: ''}
-    OnMeleeAttacked: {type: resref, value: ''}
-    OnOpen: {type: resref, value: ''}
-    OnSpellCastAt: {type: resref, value: ''}
-    OnTrapTriggered: {type: resref, value: ''}
-    OnUnlock: {type: resref, value: ''}
-    OnUsed: {type: resref, value: test_lua}
-    OnUserDefined: {type: resref, value: ''}
-    OpenLockDC: {type: byte, value: 18}
-    Plot: {type: byte, value: 0}
-    PortraitId: {type: word, value: 380}
-    Ref: {type: byte, value: 0}
-    Static: {type: byte, value: 0}
-    Tag: {type: cexostr, value: FloorLever1}
-    TemplateResRef: {type: resref, value: plc_flrlever1}
-    TrapDetectDC: {type: byte, value: 0}
-    TrapDetectable: {type: byte, value: 1}
-    TrapDisarmable: {type: byte, value: 1}
-    TrapFlag: {type: byte, value: 0}
-    TrapOneShot: {type: byte, value: 1}
-    TrapType: {type: byte, value: 0}
-    Type: {type: byte, value: 0}
-    Useable: {type: byte, value: 1}
-    Will: {type: byte, value: 0}
-    X: {type: float, value: 15.5611}
-    Y: {type: float, value: 16.4519}
-    Z: {type: float, value: 0.6407}
+  value: []
 SoundList:
   type: list
   value: []

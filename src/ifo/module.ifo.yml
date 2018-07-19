@@ -50,7 +50,7 @@ Mod_OnCutsnAbort: {type: resref, value: mod_cutsceneabrt}
 Mod_OnHeartbeat: {type: resref, value: mod_heartbeat}
 Mod_OnModLoad: {type: resref, value: mod_modload}
 Mod_OnModStart: {type: resref, value: ''}
-Mod_OnPlrChat: {type: resref, value: mod_playerchat}
+Mod_OnPlrChat: {type: resref, value: mod_chat}
 Mod_OnPlrDeath: {type: resref, value: mod_playerdeath}
 Mod_OnPlrDying: {type: resref, value: mod_playerdying}
 Mod_OnPlrEqItm: {type: resref, value: mod_equipitem}
